@@ -1,0 +1,41 @@
+html {
+    box-sizing: border-box;
+  }
+  *,*::before,*::after {
+    box-sizing: inherit;
+  }
+  body {
+    margin: 0;
+    font-family: system-ui, sans-serif;
+  }
+  
+  h1 {
+    font-size: 5rem;
+    margin: 7rem 1.25rem 2.5rem 1.25rem;
+  }
+  p {
+    font-size: 1.5rem;
+    margin: 0 1.25rem 5rem 1.25rem;
+  }
+ 
+  img
+  {
+      height: 256px;
+      width: 156px;
+  }
+  #map {
+    height: 400px;  /* The height is 400 pixels */
+    width: 100%;  /* The width is the width of the web page */
+   }
+
+/* section
+{
+    background-image: url(wave.svg);
+     min-height:1000px;
+     max-height: unset;
+      background-repeat: no-repeat;
+     position: initial;
+     background-size: 150%;
+ 
+}
+  */
